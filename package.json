@@ -1,0 +1,19 @@
+{
+  "name": "driving-lesson-booking",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n client,server -c cyan,magenta \"npm run dev -w client\" \"npm run dev -w server\"",
+    "build": "npm run build -w client",
+    "test": "npm run test -w server && npm run test -w client",
+    "seed:admin": "npm run seed:admin -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "vercel": "^48.2.0"
+  },
+  "type": "module"
+}

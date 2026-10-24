@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,560;9..144,650&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #0d1016;
+  --color-ink-light: #141a24;
+  --color-cream: #f4efe3;
+  --color-gold: #e9cd7c;
+  --color-gold-deep: #c9a84c;
+  --color-muted: #8b95a8;
+  --color-card: #121820;
+  --color-border: #252d3a;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Manrope', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-5 py-2.5 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold;
+}
+
+.btn-gold {
+  @apply bg-gold text-ink hover:bg-gold-deep;
+}
+
+.btn-outline {
+  @apply border border-border text-cream hover:border-gold hover:text-gold;
+}
+
+.section-pad {
+  @apply px-4 py-16 md:px-8 lg:px-16 lg:py-24;
+}
