@@ -9,7 +9,7 @@ export function PricingSection({ lessons, onBookLesson }) {
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {lessons.map((lesson, i) => (
             <article
-              key={lesson._id}
+              key={lesson.id}
               className={`relative flex flex-col rounded-xl border bg-card p-6 ${
                 i === 1 ? 'border-gold/50 shadow-[0_0_0_1px_rgba(233,205,124,0.15)]' : 'border-border'
               }`}
@@ -34,7 +34,7 @@ export function PricingSection({ lessons, onBookLesson }) {
               <button
                 type="button"
                 className="btn btn-gold mt-6 w-full"
-                onClick={() => onBookLesson(lesson._id)}
+                onClick={() => onBookLesson(lesson.id)}
               >
                 {lesson.slug === 'trial-demo' ? 'Book the Demo' : 'Book This Package'}
               </button>

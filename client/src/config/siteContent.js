@@ -3,8 +3,12 @@ export const siteContent = {
   businessSubtitle: 'Driving Training School',
   locationTag: 'Sidhbari • Dharamshala • Himachal Pradesh',
   phoneDisplay: '92362 95604',
+  /** International digits only (no + or spaces) for wa.me links */
+  whatsappNumber: '919236295604',
   address: 'Tapovan Road, Sidhbari',
   mapUrl: 'https://maps.google.com/?q=Tapovan+Road+Sidhbari+Dharamshala',
+  /** Optional: paste Google Maps “Embed a map” iframe src here; otherwise built from address */
+  mapEmbedUrl: '',
   hero: {
     title: 'Every hairpin bend,',
     titleEmphasis: 'mastered',
@@ -90,4 +94,51 @@ export const siteContent = {
     'HP Govt approved driving training in Sidhbari, Dharamshala. Real roads, real confidence, one learner at a time.',
   whatsappDefaultMessage:
     'Hi, I am interested in booking a driving lesson. Could you please share the available slots?',
+  lessons: [
+    {
+      id: 'trial-demo',
+      slug: 'trial-demo',
+      name: 'Trial Demo Ride',
+      badge: 'ONE DAY',
+      subtitle: 'A single guided session',
+      price: 400,
+      durationLabel: '1 Day',
+      features: [
+        'One full driving session',
+        'Feel the car, meet your instructor',
+        'No commitment required',
+        'Amount adjusts into full course if you continue',
+      ],
+    },
+    {
+      id: 'standard-course',
+      slug: 'standard-course',
+      name: 'Standard Course',
+      badge: '15 DAYS',
+      subtitle: 'Daily practice sessions',
+      price: 4500,
+      durationLabel: '15 Days',
+      features: [
+        '15 days of one-on-one training',
+        'City roads, hill roads & parking',
+        'Flexible morning / evening slots',
+        'Ideal for quick, focused learners',
+      ],
+    },
+    {
+      id: 'complete-course',
+      slug: 'complete-course',
+      name: 'Complete Course',
+      badge: '200 KM · 25 DAYS',
+      subtitle: 'Our most thorough program',
+      price: 7500,
+      durationLabel: '25 Days',
+      features: [
+        '200 KM of real, logged driving practice',
+        'Full 25-day structured program',
+        'Hill starts, reverse parking, night driving',
+        'Road-test ready, best value per hour',
+      ],
+    },
+  ],
 };
