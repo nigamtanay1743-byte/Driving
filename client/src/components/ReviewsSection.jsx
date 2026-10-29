@@ -16,7 +16,6 @@ export function ReviewsSection() {
             </blockquote>
           ))}
         </div>
-        <p className="mt-6 text-xs text-muted/80">{reviews.disclaimer}</p>
       </div>
     </section>
   );

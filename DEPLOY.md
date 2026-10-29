@@ -21,7 +21,7 @@ In the [Vercel project dashboard](https://vercel.com/dashboard) → **Settings**
 |------|--------|
 | `MONGODB_URI` | Your Atlas connection string |
 | `SESSION_SECRET` | Long random string (32+ characters) |
-| `BUSINESS_WHATSAPP_NUMBER` | `919236295604` |
+| `BUSINESS_WHATSAPP_NUMBER` | `919882051705` |
 | `ADMIN_EMAIL` | Your admin email |
 | `ADMIN_PASSWORD` | Strong password (for seed script only) |
 | `NODE_ENV` | `production` |

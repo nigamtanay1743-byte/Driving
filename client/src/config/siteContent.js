@@ -2,9 +2,9 @@ export const siteContent = {
   businessName: 'Ganpati',
   businessSubtitle: 'Driving Training School',
   locationTag: 'Sidhbari • Dharamshala • Himachal Pradesh',
-  phoneDisplay: '92362 95604',
+  phoneDisplay: '98820 51705',
   /** International digits only (no + or spaces) for wa.me links */
-  whatsappNumber: '919236295604',
+  whatsappNumber: '919882051705',
   address: 'Tapovan Road, Sidhbari',
   mapUrl: 'https://maps.google.com/?q=Tapovan+Road+Sidhbari+Dharamshala',
   /** Optional: paste Google Maps “Embed a map” iframe src here; otherwise built from address */
@@ -83,8 +83,6 @@ export const siteContent = {
       '"Patient instructor, no rush, no shouting. Exactly what a nervous first-time driver needs."',
       '"Booked the demo just to test the waters, ended up signing up for the full 25-day course the same evening."',
     ],
-    disclaimer:
-      'Sample reviews shown for illustration — replace with your real Google review quotes before publishing.',
   },
   cta: {
     heading: 'The road to your license starts with one ₹400 ride.',
